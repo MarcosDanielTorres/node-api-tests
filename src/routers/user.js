@@ -68,7 +68,7 @@ router.get('/users', async (req, res) => {
         
         res.send(users);
     }catch(e){
-        res.status(500).send()
+        res.status(500).send({"nahuel" : "se la come juajuaa"})
     }
   
 })
